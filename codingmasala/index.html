@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>CodingMasala</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <div class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo">
+                <img src="./img/logo.jpg" alt="logo">
+            </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The Future Of Coding Is Here</p>
+                <p class="text-small">If You want to learn Coding. This the right palce for you. It is the free website
+                    to
+                    learn Coding. And click the button below to Subscribe My Youtube Channel.</p>
+                <div class="buttons">
+                    <button class="btn btn-sub"><a href="https://www.youtube.com/@codingmasala"
+                            target="_blank">Subscribe</a></button>
+                    <button class="btn btn-wv"><a href="https://www.youtube.com/@codingmasala" target="_blank">Watch
+                            Video</a></button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="./img/logo.jpg" alt="Laptop-Image">
+            </div>
+        </div>
+    </section>
+    <div id="services">
+        <section class="section">
+            <div class="paras">
+                <p class="sectionTag text-big">The End Of Poverty Is Here.</p>
+                <p class="sectionSubTag text-small">Coding is not a priority in schools. This results in a lack of
+                    skilled
+                    coders, which in turn leads to a lack of good quality code being produced. This can be seen in the
+                    high
+                    number of software bugs and vulnerabilities that are found in code. The situation is exacerbated
+                    by the fact that there are few incentives for people to learn coding, as there is little demand for
+                    it
+                    in the job market. As a result, poverty of coding is a problem.</p>
+            </div>
+            <div class="thumbnail">
+                <img src="./img/section-img/Section1-image.jpg" alt="Laptop-Image" class="imgFluid">
+            </div>
+        </section>
+        <section class="section section-left">
+            <div class="paras">
+                <p class="sectionTag text-big">Learn The Coding For Free Of Cost.</p>
+                <p class="sectionSubTag text-small">You can learn the coding for free of cost. All you need is a
+                    computer
+                    and internet connection. Once you learn the basics of coding, you can start creating your own
+                    websites
+                    and applications. Coding is a great way to improve your problem solving and logical thinking skills.
+                    It
+                    can also help you develop your creative side. You can also find many coding competitions which you
+                    can
+                    participate in. Coding can help you get a job in the IT industry or you can start your own business.
+                    Coding is a great skill to have and you can learn it for free of cost here.</p>
+            </div>
+            <div class="thumbnail">
+                <img src="./img/section-img/Scetion2-img.jpg" alt="Laptop-Image" class="imgFluid">
+            </div>
+        </section>
+        <section class="section">
+            <div class="paras">
+                <p class="sectionTag text-big">Want To Become a Full-Stack Web Developer.</p>
+                <p class="sectionSubTag text-small">You want to become a full-stack web developer because you want to be
+                    able to build websites from start to finish. You have a strong interest in both front-end and
+                    back-end
+                    web development, and you want to be able to work on both sides of the web development process. You
+                    want
+                    to be able to
+                    work with a variety of programming languages, including HTML, CSS, JavaScript, PHP, and MySQL. You
+                    want
+                    to be able to create websites that are responsive and look good on all devices. You want to be able
+                    to
+                    stay up-to-date
+                    on the latest web development trends and technologies.</p>
+            </div>
+            <div class="thumbnail">
+                <img src="./img/section-img/Section3-image.jpg" alt="Laptop-Image" class="imgFluid" id="sec3img">
+            </div>
+        </section>
+    </div>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h1 class="text-center">Contact</h1>
+        <form action="" name="form" onsubmit="return validateForm()" method="post">
+            <div class="form">
+                <label for="name">Name
+                    <input type="text" name="name" id="name" class="form-input" placeholder="Enter Your Name" required>
+                </label>
+                <label for="email">Email
+                    <input type="text" name="email" id="email" class="form-input" placeholder="Enter Your Email"
+                        required>
+                </label>
+                <label for="subject">Subject
+                    <textarea name="subject" id="subject" class="form-input"
+                        placeholder="Write Something..."></textarea>
+                </label>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2022 CodingMasala - All Rigths Reserved
+        </p>
+    </footer>
+
+    <!-- Linking Js -->
+    <script src="./js/resp.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+
+</html>
